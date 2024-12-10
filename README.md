@@ -6,6 +6,7 @@
   - [stages](#stages)
     - [1: log your first joke](#1-log-your-first-joke)
     - [2: ask the user](#2-ask-the-user)
+    - [3: too many repeats](#3-too-many-repeats)
 
 ## learning
 practice working with variables and different data types, logging messages to the console, and taking input from the user. use loops and functions to write a complete javascript program.
@@ -54,7 +55,7 @@ this is bart simpson and i will not skateboard in the halls.
 #### 2.1 description
 time to add some energy to our project! in this stage, instead of using static values, you will get input from the user and log the messages according to the user's input. we've imported the `sync-input` library that you must use to take input from the user.
 
-follow the output style given in the examples.
+>follow the output style given in the examples.
 
 #### 2.2 objectives
 you should:
@@ -81,20 +82,57 @@ this is bart simpson and i will not skateboard in the halls.
 
 </details>
 
+### 3: too many repeats
+<details>
+<summary>use functions and loops to log messages at a given amount of time</summary>
+
+#### 3.1 description
+since we have dynamic input from the user, let's add the ability to log more messages on the console. in this stage, you'll take input for the number of times the message will repeat. after that, you will use the input to repeat the messages.
+
+>follow the output style given in the examples.
+
+#### 3.2 objectives
+you should:
+
+1. use the variables from the previous stages.
+2. take the input for the number of repeats.
+3. log this message to the console using the number of repeats times: `this is [name] [surname] and [message]`
+
+#### 3.3 examples
+the greater-than symbol followed by a space (`> `) represents the user input. note that it's not part of the input.
+
+example 1:
+```
+enter name: > bart
+enter surname: > simpson
+enter message: > i will not skateboard in the halls.
+enter number of repeats: > 20
+this is bart simpson and i will not skateboard in the halls.
+this is bart simpson and i will not skateboard in the halls.
+this is bart simpson and i will not skateboard in the halls.
+this is bart simpson and i will not skateboard in the halls.
+this is bart simpson and i will not skateboard in the halls.
+this is bart simpson and i will not skateboard in the halls.
+this is bart simpson and i will not skateboard in the halls.
+this is bart simpson and i will not skateboard in the halls.
+this is bart simpson and i will not skateboard in the halls.
+this is bart simpson and i will not skateboard in the halls.
+this is bart simpson and i will not skateboard in the halls.
+this is bart simpson and i will not skateboard in the halls.
+this is bart simpson and i will not skateboard in the halls.
+this is bart simpson and i will not skateboard in the halls.
+this is bart simpson and i will not skateboard in the halls.
+this is bart simpson and i will not skateboard in the halls.
+this is bart simpson and i will not skateboard in the halls.
+this is bart simpson and i will not skateboard in the halls.
+this is bart simpson and i will not skateboard in the halls.
+this is bart simpson and i will not skateboard in the halls.
+```
+
+</details>
+
 [<<](https://github.com/eucarizan/front-end/blob/main/README.md)
 <!--
 :%s/\(Sample \(Input\|Output\) \d:\)\n\(.*\)/```\r\r**\1**\r```\3/gc
-
-### 0: 
-<details>
-<summary></summary>
-
-#### 0.1 description
-
-#### 0.2 objectives
-
-#### 0.3 examples
-
-</details>
 -->
 
