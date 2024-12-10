@@ -1,10 +1,9 @@
 const input = require('sync-input');
-let name = "Bart";
-let surname = "Simpson";
-let message = "I will not skateboard in the halls.";
+let name = input("Enter name: ");
+let surname = input("Enter surname: ");
+let message = input("Enter message: ");
+let output = `This is ${name} ${surname} and ${message}`;
 
-console.log(`This is ${name} ${surname} and ${message}`);
-console.log(`This is ${name} ${surname} and ${message}`);
-console.log(`This is ${name} ${surname} and ${message}`);
-console.log(`This is ${name} ${surname} and ${message}`);
-console.log(`This is ${name} ${surname} and ${message}`);
+for (let i = 0; i < 5; i++) {
+  console.log(output);
+}
