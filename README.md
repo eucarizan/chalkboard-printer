@@ -5,6 +5,7 @@
   - [about](#about)
   - [stages](#stages)
     - [1: log your first joke](#1-log-your-first-joke)
+    - [2: ask the user](#2-ask-the-user)
 
 ## learning
 practice working with variables and different data types, logging messages to the console, and taking input from the user. use loops and functions to write a complete javascript program.
@@ -37,6 +38,40 @@ you should:
 #### 1.3 examples
 example 1:
 ```
+this is bart simpson and i will not skateboard in the halls.
+this is bart simpson and i will not skateboard in the halls.
+this is bart simpson and i will not skateboard in the halls.
+this is bart simpson and i will not skateboard in the halls.
+this is bart simpson and i will not skateboard in the halls.
+```
+
+</details>
+
+### 2: ask the user
+<details>
+<summary>get input from the user and work with dynamic data to log messages on the console</summary>
+
+#### 2.1 description
+time to add some energy to our project! in this stage, instead of using static values, you will get input from the user and log the messages according to the user's input. we've imported the `sync-input` library that you must use to take input from the user.
+
+follow the output style given in the examples.
+
+#### 2.2 objectives
+you should:
+
+1. take the input for the `name` variable.
+2. take the input for the `surname` variable.
+3. take the input for the `message` variable.
+4. log this message to the console using the variables above five times: `this is [name] [surname] and [message]`
+
+#### 2.3 examples
+the greater-than symbol followed by a space (`> `) represents the user input. note that it's not part of the input.
+
+example 1:
+```
+enter name: > bart
+enter surname: > simpson
+enter message: > i will not skateboard in the halls.
 this is bart simpson and i will not skateboard in the halls.
 this is bart simpson and i will not skateboard in the halls.
 this is bart simpson and i will not skateboard in the halls.
